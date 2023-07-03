@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Basic_Level_Practice
+{
+    class Basics
+    {
+        static void Main(string[] args)
+        {
+            // Display the number of command line arguments.
+            Console.WriteLine(args.Length);
+        }
+    }
+}
